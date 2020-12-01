@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685FFFEA257644F9006E5420 /* MyModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 685FFFE9257644F9006E5420 /* MyModel.mlmodel */; };
 		687A9B7625751C1B00D718CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9B7525751C1B00D718CC /* AppDelegate.swift */; };
 		687A9B7825751C1B00D718CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9B7725751C1B00D718CC /* SceneDelegate.swift */; };
 		687A9B7A25751C1B00D718CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9B7925751C1B00D718CC /* ViewController.swift */; };
 		687A9B7D25751C1B00D718CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687A9B7B25751C1B00D718CC /* Main.storyboard */; };
 		687A9B7F25751C1C00D718CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687A9B7E25751C1C00D718CC /* Assets.xcassets */; };
 		687A9B8225751C1C00D718CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687A9B8025751C1C00D718CC /* LaunchScreen.storyboard */; };
+		687A9B8F25751D7C00D718CC /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9B8E25751D7C00D718CC /* YOLO.swift */; };
+		687A9B92257523A700D718CC /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9B91257523A700D718CC /* VideoCapture.swift */; };
+		687A9B95257529E900D718CC /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9B94257529E900D718CC /* UIImage+CVPixelBuffer.swift */; };
+		687A9B9825752BCB00D718CC /* CVPixelBuffer+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9B9725752BCB00D718CC /* CVPixelBuffer+Helper.swift */; };
+		687A9B9B257530A500D718CC /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9B9A257530A500D718CC /* BoundingBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		685FFFE9257644F9006E5420 /* MyModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyModel.mlmodel; sourceTree = "<group>"; };
 		687A9B7225751C1B00D718CC /* SnackLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		687A9B7525751C1B00D718CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		687A9B7725751C1B00D718CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		687A9B7E25751C1C00D718CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687A9B8125751C1C00D718CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		687A9B8325751C1C00D718CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687A9B8E25751D7C00D718CC /* YOLO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		687A9B91257523A700D718CC /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		687A9B94257529E900D718CC /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		687A9B9725752BCB00D718CC /* CVPixelBuffer+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helper.swift"; sourceTree = "<group>"; };
+		687A9B9A257530A500D718CC /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		687A9B7425751C1B00D718CC /* SnackLocalization */ = {
 			isa = PBXGroup;
 			children = (
+				685FFFE9257644F9006E5420 /* MyModel.mlmodel */,
 				687A9B7525751C1B00D718CC /* AppDelegate.swift */,
 				687A9B7725751C1B00D718CC /* SceneDelegate.swift */,
 				687A9B7925751C1B00D718CC /* ViewController.swift */,
@@ -63,6 +76,11 @@
 				687A9B7E25751C1C00D718CC /* Assets.xcassets */,
 				687A9B8025751C1C00D718CC /* LaunchScreen.storyboard */,
 				687A9B8325751C1C00D718CC /* Info.plist */,
+				687A9B8E25751D7C00D718CC /* YOLO.swift */,
+				687A9B91257523A700D718CC /* VideoCapture.swift */,
+				687A9B94257529E900D718CC /* UIImage+CVPixelBuffer.swift */,
+				687A9B9725752BCB00D718CC /* CVPixelBuffer+Helper.swift */,
+				687A9B9A257530A500D718CC /* BoundingBox.swift */,
 			);
 			path = SnackLocalization;
 			sourceTree = "<group>";
@@ -139,6 +157,12 @@
 			files = (
 				687A9B7A25751C1B00D718CC /* ViewController.swift in Sources */,
 				687A9B7625751C1B00D718CC /* AppDelegate.swift in Sources */,
+				687A9B9B257530A500D718CC /* BoundingBox.swift in Sources */,
+				687A9B8F25751D7C00D718CC /* YOLO.swift in Sources */,
+				687A9B95257529E900D718CC /* UIImage+CVPixelBuffer.swift in Sources */,
+				687A9B9825752BCB00D718CC /* CVPixelBuffer+Helper.swift in Sources */,
+				685FFFEA257644F9006E5420 /* MyModel.mlmodel in Sources */,
+				687A9B92257523A700D718CC /* VideoCapture.swift in Sources */,
 				687A9B7825751C1B00D718CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.cs.SnackLocalization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.cs.SnackLocalization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
